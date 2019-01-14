@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="1920px"
+    android:layout_height="540px"
+    android:background="@drawable/background">
+
+
+    <ImageView
+        android:id="@+id/iv_please_pass"
+        android:layout_width="652px"
+        android:layout_height="234px"
+        android:layout_marginTop="161px"
+        android:layout_marginLeft="818px"
+        android:background="@drawable/please_pass" />
+
+    <ImageView
+        android:id="@+id/iv_line"
+        android:layout_width="370px"
+        android:layout_height="300px"
+        android:layout_marginLeft="1478px"
+        android:layout_marginTop="128px"
+        android:background="@drawable/line" />
+
+    <ImageView
+        android:id="@+id/iv_people"
+        android:layout_width="370px"
+        android:layout_height="300px"
+        android:layout_marginLeft="1478px"
+        android:layout_marginTop="128px"
+        android:background="@drawable/people" />
+</RelativeLayout>
